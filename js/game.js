@@ -111,7 +111,7 @@ const startTimer = () => {
 window.onload = () => {
   const playerName = localStorage.getItem("player");
 
-  spanPlayer.innerHTML = "Bem vindo, " + playerName;
+  spanPlayer.innerHTML = playerName;
   startTimer();
   loadGame();
 };
